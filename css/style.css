@@ -1,0 +1,425 @@
+/*
+=================================================
+|   |   |   Generic CSS
+=================================================
+*/
+*{
+    padding: 0px;
+    margin: 0px;
+    scroll-behavior: smooth;
+}
+
+body{
+    font-size: 16px;
+    line-height: 26px;
+    font-family: 'Source Sans Pro', sans-serif;
+    color:#73879c;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Lato', sans-serif;
+    color: #506a85;
+}
+p{
+    color: #73879c;
+}
+a,a:hover{
+    text-decoration: none;
+    color:#73879c;
+}
+
+ul,li{
+    list-style: none;
+}
+
+section{
+    padding: 60px 0;
+}
+
+.title h2{
+    font-size: 44px;
+    line-height: 54px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.title p{
+    font-size: 22px;
+    line-height: 32px;
+    font-weight: 500;
+    margin-bottom: 50px;
+}
+/*
+=================================================
+|   |   |   Header Section & Nav
+=================================================
+*/
+
+.top-header{
+    background:#f2f5f7;
+}
+
+.top-info{
+    display: block;
+    font-size: 14px;
+    color:#506a85;
+    padding: 0px;
+    margin-top: 8px;
+}
+
+.top-info li{
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.top-info li .fa{
+    margin-right: 10px;
+    color:#506a85;
+    font-size: 14px;
+    margin-top: 8px;
+}
+
+.social-icon{
+    display: block;
+    text-align: right;
+    margin-top: 5px;
+    padding: 0px;
+}
+
+.social-icon li{
+    display: inline-block;
+    margin-top: 5px;
+}
+
+.social-icon li .fa{
+    font-size: 14px;
+    margin-left: 30px;
+    color:#506a85;
+    -webkit-transition: 1s ease;
+    transition: 1s ease;
+}
+.social-icon li .fa:hover{
+    color: #00bc9c;
+}
+
+/*=======================Navbar===========================*/
+.navbar-brand img{
+    margin-right: 60px;
+    padding: 0px;
+}
+.navbar{
+    padding: 30px 0px;
+}
+.nav-link{
+    font-size: 15px;
+    font-weight: 700;
+    color: #506a85 !important;
+    text-transform: uppercase;
+    margin-right: 20px;
+    -webkit-transition: 1s ease;
+    transition: 1s ease;
+}
+.nav-link:active,
+.nav-link:hover,
+.nav-link:focus{
+    color: #00bc9c !important;
+}
+
+.gg{
+    color: #506a85 !important;
+    transition: 1s;
+}
+
+.gg:hover{
+    color: #00bc9c !important;
+}
+/*
+=================================================
+|   |   |   Home Section
+=================================================
+*/
+.home{
+    padding-top: 0px;
+}
+.carousel-caption{
+    bottom: 29%;
+}
+.home-desc h1{
+    font-size: 84px;
+    line-height: 94px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.home-desc p{
+    font-size: 24px;
+    line-height: 34px;
+    font-weight: 400;
+    color: #a3b1bf;
+}
+
+.btn-start{
+    padding: 20px 80px;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #fff;
+    background: #00bc9c;
+    border: 1px solid #00bc9c;
+    border-radius: 2px;
+    margin-top: 50px;
+    -webkit-transition: 1s;transition: 1s;
+}
+
+.btn-start:hover{
+    background: transparent;
+    color: #00bc9c;
+    border: 1px solid #00bc9c;
+}
+/*
+=================================================
+|   |   |   Who We Are
+=================================================
+*/
+.who-title h2{
+    font-size: 44px;
+    line-height: 54px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.who-title p{
+    font-size: 22px;
+    line-height: 32px;
+    font-weight: 500;
+    margin-bottom: 50px;
+}
+.media img{
+    width: ;
+}
+.who-desc{
+    font-size: 26px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.who-text{
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 500;
+}
+/*
+=================================================
+|   |   |   Works
+=================================================
+*/
+.work{
+    background: #f2f5f7;
+}
+
+.card-img, .card-img-top{
+    border: none;
+    border-radius: 0px;
+}
+.card{
+    border-radius: 0;
+}
+.card-title{
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 20px;
+}
+
+.card-text{
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.owl-carousel{
+    margin-top: 60px;
+}
+
+
+.owl-theme .owl-dots .owl-dot span{
+    background: #506a85;
+}
+
+.owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span{
+    background: #00bc9c;
+}
+.owl-theme .owl-dots .owl-dot{
+    margin-top: 30px;
+}
+/*
+=================================================
+|   |   |   Get In Touch
+=================================================
+*/
+.btn-getin{
+    padding: 15px 40px;
+    font-size: 15px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #fff;
+    background: #00bc9c;
+    border: 1px solid  #00bc9c;
+    -webkit-transition: 1s ease;
+    transition: 1s ease;
+}
+
+.btn-getin:hover{
+    background: transparent;
+    border: 1px solid  #00bc9c;
+    color: #00bc9c;
+}
+.footer-top{
+    background: #2f4052; 
+}
+
+/*
+=================================================
+|   |   |   Widget
+=================================================
+*/
+
+.widget-title{
+    font-size: 16px;
+    font-weight: 700;
+    color: #fff;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.logo-footer{
+    margin-bottom: 20px;
+}
+.widget-text{
+    font-size: 14px;
+    color: #a3b1bf;
+}
+.link{
+    font-size: 15px;
+    font-weight: 700;
+    color: #a3b1bf;
+    transition: 1s ease;
+}
+.link:hover{
+    color: #00bc9c;
+}
+.link .fa{
+    margin-left: 5px;
+}
+
+
+.address li{
+    font-size: 14px;
+    color: #a3b1bf;
+}
+
+.address li .fa{
+    margin-right: 10px;
+}
+
+.footer-top .card{
+    border: 0px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+.form-group{
+    width: 100%;
+    margin-left: 0px !important;
+}
+
+.btn-subs{
+    position: absolute;
+    padding: 3px 8px;
+    font-weight: 600;
+    tab-size: 13px;
+    line-height: 23px;
+    text-transform: uppercase;
+    color: #fff;
+    background: #00bc9c;
+    border: 1px solid #00bc9c;
+    right: 2%;
+    bottom: 36.3%;
+    -webkit-transition: 1s;transition: 1s;
+}
+
+.btn-subs:hover{
+    background: transparent;
+    color: #00bc9c;
+    border: 1px solid #00bc9c;
+}
+
+.right-padding{
+    padding-right: 0px;
+}
+.form-control{
+    font-size: 14px;
+    font-weight: 400;
+    height: 44px;
+    background: #4e5c6c;
+    color: #4e5c6c;
+    border: none;
+}
+
+/*
+=================================================
+|   |   |   Footer
+=================================================
+*/
+.footer-section{
+    background: #283645;
+    padding: 20px 0px;
+}
+
+.copy{
+    font-size: 14px;
+    margin-top: 8px;
+}
+.bottom-nav{
+    display: block;
+    text-align: right;
+}
+
+.bottom-nav li{
+    font-size: 14px;
+    display: inline-block;
+    margin-left: 10px;
+    margin-top: 8px;
+}
+
+.btn-back-to-top {
+	position: fixed;
+	bottom: 30px;
+	right: 20px;
+	padding: 3px 15px;
+	border: 4px;
+	font-size: 22px;
+	background-color: #4e5c6c;
+}
+/*
+=================================================
+
+Body:
+font-family: 'Source Sans Pro', sans-serif;
+Heading:
+font-family: 'Lato', sans-serif;
+
+Some Section Color:
+color:#f2f5f7;
+
+Heading Color,
+Main Color:
+color:#506a85;
+
+Text-color:
+color:#73879c;
+
+Button Color:
+color:#00bc9c;
+
+=================================================
+*/
