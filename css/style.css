@@ -59,6 +59,13 @@ section{
     background:#f2f5f7;
 }
 
+.menu{
+    width: 100%;
+    position: relative;
+    z-index: 15;
+    background: #fff;
+}
+
 .top-info{
     display: block;
     font-size: 14px;
